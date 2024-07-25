@@ -19,6 +19,10 @@ console.log(ten * ten);
     IMAGINE VARIABLES/BINDINGS AS TENTACLES, THEY DON'T CONTAIN VALUES, THEY GRASP THEM => Two bindings can refer to the same value
     A program can access only the values that it still has a reference to.
     When you need to remember something, you grow a tentacle to hold on to it or you reattach one of your existing tentacles to it.
+
+    Bindings declared with "let" and "const": They are LOCAL to the "block" in which they are declared;
+        If a binding is declared in a loop => code before and after the loop cannot see it
+        that "for" loop is the Binding's SCOPE
 */
 // the = operator can be used to disconnect the variable from its current value and point to a new one
 let mood = "light"; 
